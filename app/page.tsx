@@ -1,5 +1,6 @@
 import CountdownTimer from "@/components/countdown-timer";
 import type { Metadata } from 'next'
+import { Analytics } from "@vercel/analytics/react"
  
 export const metadata: Metadata = {
   title: 'DemoDay - Pitch Perfect',
@@ -10,6 +11,9 @@ export const metadata: Metadata = {
 export default function Home() {
   
   return (
-    <CountdownTimer/>
+    <>
+        <CountdownTimer/>
+        <Analytics />
+      </>
      );
 }
