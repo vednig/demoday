@@ -101,7 +101,7 @@ export default function CountdownTimer() {
         </div>
 
         <div className="mt-2 pl-7 text-xs text-[#828282]">
-          by <a href="#" className="hover:underline">user</a> | <a href="#" className="hover:underline">0 comments</a> | <a href="https://dub.sh/demoday-entry" className="hover:underline">Get entry pass for event</a>
+          by <a href="#" className="hover:underline">demoday.live</a> | <a href="#" className="hover:underline">0 comments</a> | <a href="https://dub.sh/demoday-entry" className="hover:underline">Get entry pass for event</a>
         </div>
 
         {/* FAQs Section */}
