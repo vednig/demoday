@@ -75,9 +75,10 @@ export default function CountdownTimer() {
       {/* Content */}
       <div className="max-w-5xl mx-auto p-4">
         <div className="flex items-baseline gap-2 mb-4">
+
           <div className="w-0 h-0 border-l-[5px] border-l-transparent border-r-[5px] border-r-transparent border-b-[10px] border-b-[#828282]"></div>
           <h1 className="text-xl font-normal">
-            Time remaining until December 14, 2024 12:00 GMT
+            We&apos;re starting on <a href="https://youtube.com/live/qlsb4IyXdY8?feature=share">YouTube</a> in
           </h1>
         </div>
 
@@ -101,7 +102,7 @@ export default function CountdownTimer() {
         </div>
 
         <div className="mt-2 pl-7 text-xs text-[#828282]">
-          by <a href="#" className="hover:underline">demoday.live</a> | <a href="#" className="hover:underline">0 comments</a> | <a href="https://dub.sh/demoday-entry" className="hover:underline">Get entry pass for event</a>
+          by <a href="#" className="hover:underline">demoday.live</a> | <a href="#" className="hover:underline">0 comments</a> | <a href="https://dub.sh/demoday-entry" className="hover:underline">Join Now</a>
         </div>
 
         {/* FAQs Section */}
